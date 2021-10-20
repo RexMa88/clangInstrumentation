@@ -457,6 +457,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_CFLAGS = "-fsanitize-coverage=func,trace-pc-guard";
 				PRODUCT_BUNDLE_IDENTIFIER = com.machao.clangInsertPile;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -484,6 +485,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_CFLAGS = "-fsanitize-coverage=func,trace-pc-guard";
 				PRODUCT_BUNDLE_IDENTIFIER = com.machao.clangInsertPile;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
